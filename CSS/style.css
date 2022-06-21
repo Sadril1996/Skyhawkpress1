@@ -102,7 +102,9 @@ p {
 }
 
 .btn.btn-prymary:hover {
-    opacity: 0.66;
+    background-color: #04AA6D;
+    color: white;
+    transition: 1s;
 }
 
 .button {
@@ -112,7 +114,9 @@ p {
 }
 
 .button:hover {
-    opacity: 0.88;
+    background-color: #04AA6D;
+    color: white;
+    transition: 1s;
 }
 
 .add-card {
@@ -131,7 +135,12 @@ p {
     margin-top: 15px;
     overflow: hidden;
     border-radius: 0px;
-
+}
+.card:hover{
+    box-shadow: 10px 10px 15px gray;
+    transform: scale(1.05);
+    transition: 2s; 
+    z-index: 1;
 }
 
 .card-footer {
@@ -525,13 +534,7 @@ p {
     line-height: 46px;
 }
 
-
-#work .card:hover {
-    background: #3D4A53;
-    color: #FFFFFF;
-}
-
-#work .card.card-wreper img {
+#work .card img {
     width: 54px;
     margin: 24px 0px 0px 24px;
 }
@@ -809,11 +812,6 @@ p {
     object-fit: cover;
 }
 
-.product .card img:hover {
-    transform: scale(1.2);
-    transition: 1s;
-}
-
 .product .card-body {
     padding: 0;
     margin: 0;
@@ -987,11 +985,6 @@ p {
 
 .service .card {
     background: #FFFFFF;
-}
-
-.service .card img:hover {
-    transform: scale(1.2);
-    transition: 1s;
 }
 
 .service .card ul li {
