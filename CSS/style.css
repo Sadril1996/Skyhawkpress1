@@ -745,7 +745,6 @@ p {
   text-decoration: none;
   display: inline-block;
   transition: 0.5s;
-  
 }
 .product a:hover {
   background: rgba(61, 74, 83, 0.1);
@@ -1329,7 +1328,9 @@ textarea {
   line-height: 18px;
   color: #ffffff;
 }
-
+.footer ul li a:hover {
+  text-decoration: underline;
+}
 .footer .footer-bottom p {
   text-align: center;
   margin-top: 20px;
