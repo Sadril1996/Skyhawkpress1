@@ -745,6 +745,7 @@ p {
   text-decoration: none;
   display: inline-block;
   transition: 0.5s;
+  
 }
 .product a:hover {
   background: rgba(61, 74, 83, 0.1);
@@ -757,18 +758,16 @@ p {
   margin-bottom: 16px;
 }
 
-/* .product .card {
-    background: none;
-} */
 .product .card {
   background: none;
+  padding: 0 4px 8px;
   transition: transform 0.5s;
 }
 .product .card:hover {
   transform: translateY(-10px);
   z-index: 1;
 }
-*/ .product .card img {
+.product .card img {
   object-fit: cover;
 }
 
@@ -780,16 +779,15 @@ p {
 .product .card-body h6 {
   font-weight: 600;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 16px;
   margin-top: 24px;
   color: #333333;
 }
 
 .product .card-body p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   color: #4f4f4f;
-  text-align: justify;
 }
 
 @media only screen and (min-width: 260px) and (max-width: 479px) {
